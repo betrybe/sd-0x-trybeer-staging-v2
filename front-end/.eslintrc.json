@@ -14,6 +14,15 @@
   },
   "plugins": ["react", "react-hooks"],
   "rules": {
+    "func-names": ["off"],
+    "no-console": "off", //remover depois
+    "no-alert": "off", //remover depois
+    "react/prop-types": "off", //remover depois
+    "consistent-return": ["off"], //remover depois
+    //"indent": ["error", 2],  
+    "no-restricted-globals": ["off"], ///remover depois
+    "no-shadow": "off", //remover depois
+    "import/no-extraneous-dependencies": "off", //remover depois
     "linebreak-style": ["error", "unix"],
     "quotes": ["error", "single"],
     "semi": ["error", "always"],
